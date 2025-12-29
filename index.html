@@ -13,11 +13,20 @@ body {
 }
 
 h1 {
-    text-align:center;
-    color:pink;
-    margin-top:50px;    
-    margin-bottom:40px; 
-    font-size:36px;     
+    h1 {
+    text-align: center;
+    color: pink;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 36px; /* büyük başlık */
+}
+
+section h2 {
+    text-align: center;
+    font-size: 28px; /* bölüm başlıkları */
+    margin-bottom: 15px;
+    color: lightblue;
+}    
 }
 
 
@@ -38,9 +47,14 @@ a {
 <a href="sarki.html">Benim Şarkım</a>
 <a href="album.html">Yazdığım Şarkılar</a>
 <a href="film.html">Kısa Film</a>
-
-<video controls>
-  <source src="altklasor/kisa-film.mp4" type="video/mp4">
+  
+    <section>
+  <h2>🎬 Kısa Film</h2>
+  <video controls>
+    <source src="kisa-film.mp4" type="video/mp4">
+    Tarayıcınız video etiketini desteklemiyor.
+  </video>
+</section>
     
 </body>
 </html>
